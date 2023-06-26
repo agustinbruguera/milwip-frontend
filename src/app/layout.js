@@ -5,11 +5,6 @@ export default function RootLayout({ children }) {
           <title> FIRST APP </title>
         </head>
         <body>
-          <nav>
-            <ul>
-              <li>Home</li>
-            </ul>
-          </nav>
           {children}
         </body>
       </html>
